@@ -1,12 +1,40 @@
-h1 {
-  color: cornflowerblue;
+* {
+  box-sizing: border-box;
 }
-p {
-  color: darkslateblue;
-}
-.title {
-  background-color: #2c2727;
+body {
+  background-color: #241f21;
 }
 .text {
-  background-color: #b4e9c5;
+  color: white;
+  font-family: sans-serif;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+.box-1 {
+  background-color: orange;
+}
+.box-2 {
+  background-color: aqua;
+  border: 5px solid purple;
+}
+.box-3 {
+  background-color: blueviolet;
+  border-right: 10px dashed salmon;
+}
+.box-4 {
+  background-color: darkcyan;
+  border-radius: 30px 10px;
+}
+.box-5 {
+  background-color: lightcoral;
+  border-bottom: 15px double red;
+  border-top-right-radius: 50px;
+}
+.box-6 {
+  background-color: limegreen;
+  border-left: 15px dotted orange;
+  border-radius: 20px 50px 10px 100px;
 }
